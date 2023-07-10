@@ -23,6 +23,8 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
 });
 
+console.log("git flow test line")
+
 app.post("/location", (req, res) => {
   // console.log(req.body);
   const { latitude, longitude } = req.body;
